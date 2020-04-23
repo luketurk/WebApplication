@@ -12,6 +12,7 @@ namespace WEBAPPLICATION.Controllers
     {
         public IActionResult Index()
         {
+            ViewBag.message = "asdasdasdasdasds";
             return View();
         }
 
